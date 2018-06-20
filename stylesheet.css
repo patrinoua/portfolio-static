@@ -159,12 +159,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("assets/DSC_4873-mik.jpg");
-    background-size: cover;
+    background-image: url("assets/angeliki-mik.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 2px;
-    box-shadow: 3px 3px 6px -2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 6px -2px rgba(0, 0, 0, 0.3); */
 }
 .aboutAngelikiContentRight{
     width: 40%;
@@ -208,6 +208,15 @@ font-weight: 200; */
     margin-bottom: 10vh;
     /* z-index: 1; */
 }
+.projectSectionText a{
+    color: black;
+}
+.projectSectionText span a{
+    text-decoration: underline;
+}
+#contactBlock .contentTitle{
+    padding-top: 0;
+}
 #contactBlock{
     display: flex;
     flex-direction: column;
@@ -222,11 +231,26 @@ font-weight: 200; */
 }
 .contactForm{
     width: 80%;
-    height: 20vh;
+    /* height: 20vh; */
     /* background-color: brown; */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.inARow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+.bigIcon{
+    border-radius: 50%;
+    padding: 2vh;
+    /* margin: 2vh; */
+}
+.bigIcon img{
+    width: 60px;
+    height: 60px;
 }
 #footer {
     font-size: 11px;
@@ -252,6 +276,9 @@ a:visited .menuItem{
 }
 a:visited{
     color:black;
+}
+.spanWithSpaceUnder{
+    padding-bottom: 50px;
 }
 @media (max-width: 750px) {
     a:visited{
@@ -316,6 +343,12 @@ a:visited{
     #contactBlock{
         background-color: white;
         color:black;
+    }
+    .bigIcon img{
+        filter: invert(1);
+    }
+    .projectSectionText a{
+        color: white;
     }
     #footer{
         background-color: #191919;
