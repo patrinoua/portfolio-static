@@ -214,6 +214,9 @@ font-weight: 200; */
 .projectSectionText span a{
     text-decoration: underline;
 }
+.projectInfoText{
+    padding: 20px;
+}
 #contactBlock .contentTitle{
     padding-top: 0;
 }
