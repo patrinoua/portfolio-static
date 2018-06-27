@@ -188,13 +188,22 @@ font-weight: 200; */
     height: 80vh;
     width: 100%;
     max-width: 900px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     /* background-color: green; */
     /* position: fixed; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+
+}
+.triggeredAnimation{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 .projectSectionImg:hover{
     opacity: 1;

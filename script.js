@@ -10,7 +10,10 @@ $('.menuItem').click(function(e){
     }, "slow");
 });
 
-
+$(".projectSectionImg").inViewport(function(px){
+    console.log('lalala');
+    if(px) $(this).addClass("triggeredAnimation") ;
+});
 // navigationTargetSelector.css({backgroundColor:"red"})
 
 // $(`html, body`).animate(
