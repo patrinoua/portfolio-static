@@ -4,10 +4,7 @@
 }
 
 #header{
-    /* height: 11vh; */
-    width: 100vw;
-    /* background-color: #162F42; */
-    /* background-color: #050F21; */
+    width: 98vw;
     background-image: url(assets/background1.jpg);
     border-bottom: 0.5px solid rgba(255,255,255,0.3);
     display: flex;
@@ -56,7 +53,6 @@
     opacity: 0.8;
     width: 25px;
     height: 25px;
-    /* background-color: red; */
     padding: 0;
     margin: .5vh;
     border-radius: 50%;
@@ -71,7 +67,6 @@
 
 .borderLine{
     background-color: rgba(255,255,255,0.4);
-    /* border-left: 1px solid rgba(255,255,255,0.4); */
     height: 14vh;
     width: 1px;
     padding: 0;
@@ -89,7 +84,6 @@
 #aboutMeSection{
     height: 40vh;
     width: 100%;
-    /* background-color: #050F21; */
     color: white;
     position: relative;
     display: flex;
@@ -106,7 +100,6 @@
     display: block;
     text-decoration: none;
     padding: 7vh 2vh;
-    /* background-color: yellow; */
 }
 .slideshow_caption h2{
     font-family: 'Quattrocento', 'Helvetica', serif;
@@ -140,13 +133,10 @@
     display: flex;
     justify-content: center;
     padding-top: 7vh;
-    /* padding-bottom: 5vh; */
-    /* background-color: green; */
     height: 11vh;
     width: 100%;
 }
 .aboutAngelikiContent{
-    /* background-color: orange; */
     height: 60vh;
     position: relative;
     display: flex;
@@ -156,7 +146,6 @@
 .aboutAngelikiPicture{
     width: 40%;
     height: 80%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,15 +154,11 @@
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 10px;
-    /* box-shadow: 3px 3px 6px -2px rgba(0, 0, 0, 0.3); */
 }
 .aboutAngelikiContentRight{
     width: 40%;
     height: 100%;
     padding: 2vh;
-    /* font-family: "roboto";
-font-weight: 200; */
-    /* background-color: purple; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,14 +172,10 @@ font-weight: 200; */
 .projectSectionImg{
     height: 80vh;
     width: 100%;
-    max-width: 900px;
-    /* opacity: 0.6; */
-    /* background-color: green; */
-    /* position: fixed; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 
 }
 .triggeredAnimation{
@@ -209,14 +190,11 @@ font-weight: 200; */
     opacity: 1;
 }
 .projectSectionText{
-    /* height: 40vh; */
     width: 80%;
-    /* background-color: grey; */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 15vh;
-    /* z-index: 1; */
 }
 .projectSectionText a{
     color: black;
@@ -235,7 +213,6 @@ font-weight: 200; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: black; */
     position: relative;
     width: 100%;
     height: 80vh;
@@ -244,11 +221,13 @@ font-weight: 200; */
 }
 .contactForm{
     width: 80%;
-    /* height: 20vh; */
-    /* background-color: brown; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+.contactBox{
+
 }
 .inARow{
     display: flex;
@@ -259,17 +238,15 @@ font-weight: 200; */
 .bigIcon{
     border-radius: 50%;
     padding: 2vh;
-    /* margin: 2vh; */
 }
 .bigIcon img{
     width: 60px;
     height: 60px;
 }
 #footer {
-    font-size: 11px;
+    font-size: 0.9em;
     margin-top: -1px;
     z-index: 1;
-
     width: 100%;
     height: 10vh;
     display: flex;
@@ -342,8 +319,6 @@ a:visited{
         opacity: 1;
     }
     main{
-        /* background-color: black;
-        color: white; */
         color: white;
         background-color: #050F21;
     }
@@ -367,5 +342,4 @@ a:visited{
         background-color: #191919;
         color: #eeeeee;
     }
-
 }
